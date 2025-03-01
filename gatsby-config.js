@@ -15,7 +15,13 @@ module.exports = {
         },
         contentDirectory: "./content",
         blogSettings: {
-          path: "/blog", // Defines the slug for the blog listing page
+          path: "/blog", // Defines the slug for the blog listing pagegatsby": "^5.14.1",
+          "gatsby-plugin-image": "^3.14.0",
+          "gatsby-source-filesystem": "^3.15.0",
+          "gatsby-theme-portfolio-minimal": "^2.6.4",
+          "gatsby-transformer-remark": "^4.12.0",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0"
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
         // googleAnalytics: {
